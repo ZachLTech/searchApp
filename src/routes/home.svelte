@@ -9,7 +9,7 @@ async function searchAPI(){
   try {
     const apiKey = "803658ef6d31763b5094e4c18d3d4a6604f4a311f68d63446afe91d102087142";
     const query = "coffee"; // Replace with your desired query
-    const url = `https://serpapi.com/search.json?q=${query}&tbm=lcl&api_key=${apiKey}`;
+    const url = `https://serpapi.com/search.json?engine=duckduckgo&q=${query}&kl=us-en&api_key=${apiKey}`;
 
     const response = await axios.get(url);
     const { organic_results } = response.data;
