@@ -29,7 +29,7 @@
 		"@sveltejs/adapter-vercel": "^3.0.0",
 		"axios": "^1.4.0",
 		"cheerio": "^1.0.0-rc.12",
-		"firebase": "^9.22.1",
+		"firebase": "^9.22.2",
 		"firebase-admin": "^11.8.0",
 		"firebase-functions": "^4.4.0"
 	}
